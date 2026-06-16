@@ -1,0 +1,74 @@
+{
+    "total_count": 2,
+    "incomplete_results": false,
+    "items": [
+        {
+            "sha": "aabbccdd11223344556677889900aabbccdd1122",
+            "node_id": "C_abc123",
+            "url": "https://api.github.com/repos/gibbs/repo1/git/commits/aabbccdd11223344556677889900aabbccdd1122",
+            "html_url": "https://github.com/gibbs/repo1/commit/aabbccdd11223344556677889900aabbccdd1122",
+            "author": {
+                "login": "gibbs",
+                "id": 12345,
+                "avatar_url": "https://avatars.githubusercontent.com/u/12345?v=4",
+                "gravatar_id": "",
+                "type": "User"
+            },
+            "commit": {
+                "author": {
+                    "date": "2024-01-15T10:30:00Z",
+                    "email": "dan@example.com",
+                    "name": "Dan Gibbs"
+                },
+                "message": "feat: add new feature",
+                "url": "https://api.github.com/repos/gibbs/repo1/git/commits/aabbccdd11223344556677889900aabbccdd1122",
+                "tree": {
+                    "sha": "tree123",
+                    "url": "https://api.github.com/repos/gibbs/repo1/git/trees/tree123"
+                }
+            },
+            "repository": {
+                "id": 1,
+                "name": "repo1",
+                "full_name": "gibbs/repo1",
+                "html_url": "https://github.com/gibbs/repo1",
+                "private": false,
+                "description": "A test repository"
+            }
+        },
+        {
+            "sha": "11223344556677889900aabbccdd1122aabbccdd",
+            "node_id": "C_def456",
+            "url": "https://api.github.com/repos/gibbs/repo2/git/commits/11223344556677889900aabbccdd1122aabbccdd",
+            "html_url": "https://github.com/gibbs/repo2/commit/11223344556677889900aabbccdd1122aabbccdd",
+            "author": {
+                "login": "gibbs",
+                "id": 12345,
+                "avatar_url": "https://avatars.githubusercontent.com/u/12345?v=4",
+                "gravatar_id": "",
+                "type": "User"
+            },
+            "commit": {
+                "author": {
+                    "date": "2024-01-10T08:00:00Z",
+                    "email": "dan@example.com",
+                    "name": "Dan Gibbs"
+                },
+                "message": "fix: resolve bug in parser",
+                "url": "https://api.github.com/repos/gibbs/repo2/git/commits/11223344556677889900aabbccdd1122aabbccdd",
+                "tree": {
+                    "sha": "tree456",
+                    "url": "https://api.github.com/repos/gibbs/repo2/git/trees/tree456"
+                }
+            },
+            "repository": {
+                "id": 2,
+                "name": "repo2",
+                "full_name": "gibbs/repo2",
+                "html_url": "https://github.com/gibbs/repo2",
+                "private": false,
+                "description": "Another test repository"
+            }
+        }
+    ]
+}

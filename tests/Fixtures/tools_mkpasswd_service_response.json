@@ -1,0 +1,5 @@
+{
+    "success": true,
+    "command": "/usr/bin/mkpasswd Password1 --method=sha512crypt --rounds=0",
+    "output": "$6$DJtFeNbCe5w1QUmk$Slu7NCsDDO3es8GC1V5C2s4lbbgGX51nNNT6fcR3BzheH5egb81H9J00ZSnmaslUBFqH2KFFlZWbr/DOzNOr91"
+}

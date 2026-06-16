@@ -1,0 +1,5 @@
+{
+    "success": true,
+    "command": "/usr/bin/pwgen -1 --num-passwords=3 --numerals --secure --symbols 32",
+    "output": "Password1!\nPassword2!\nPassword3!"
+}

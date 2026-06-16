@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "repo1",
+        "full_name": "gibbs/repo1",
+        "private": false,
+        "fork": false,
+        "description": "A public repository",
+        "language": "PHP",
+        "stargazers_count": 10
+    },
+    {
+        "id": 2,
+        "name": "repo2",
+        "full_name": "gibbs/repo2",
+        "private": false,
+        "fork": false,
+        "description": "Another public repository",
+        "language": "JavaScript",
+        "stargazers_count": 5
+    },
+    {
+        "id": 3,
+        "name": "forked-repo",
+        "full_name": "gibbs/forked-repo",
+        "private": false,
+        "fork": true,
+        "description": "A forked repository",
+        "language": "Python",
+        "stargazers_count": 0
+    }
+]

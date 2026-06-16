@@ -1,0 +1,5 @@
+{
+    "success": true,
+    "command": "/usr/bin/uuidgen --random",
+    "output": "659127d3-b934-4574-8008-4c318298dca5"
+}
