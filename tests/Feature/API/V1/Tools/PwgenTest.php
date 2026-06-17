@@ -114,3 +114,26 @@ it('sends the correct payload to the service', function () {
             && $body['symbols'] === true;
     });
 });
+
+it('defaults nullable fields to false or empty string', function () {
+    Sanctum::actingAs($this->user);
+
+    $this->postJson('/v1/tools/pwgen', [
+        'num-passwords' => 3,
+        'length' => 32,
+    ]);
+
+    Http::assertSent(function ($request) {
+        $body = $request->data();
+
+        return $body['no-numerals'] === false
+            && $body['no-capitalize'] === false
+            && $body['ambiguous'] === false
+            && $body['capitalize'] === false
+            && $body['numerals'] === false
+            && $body['secure'] === false
+            && $body['no-vowels'] === false
+            && $body['symbols'] === false
+            && $body['remove-chars'] === '';
+    });
+});

@@ -95,16 +95,16 @@ final class PwgenRequest extends FormRequest
     public function toDto(): PwgenData
     {
         return new PwgenData(
-            noNumerals: $this->validated('no-numerals'),
-            noCapitalize: $this->validated('no-capitalize'),
-            ambiguous: $this->validated('ambiguous'),
-            capitalize: $this->validated('capitalize'),
+            noNumerals: $this->boolean('no-numerals'),
+            noCapitalize: $this->boolean('no-capitalize'),
+            ambiguous: $this->boolean('ambiguous'),
+            capitalize: $this->boolean('capitalize'),
             numPasswords: $this->validated('num-passwords'),
-            numerals: $this->validated('numerals'),
-            removeChars: $this->validated('remove-chars') ?? '',
-            secure: $this->validated('secure'),
-            noVowels: $this->validated('no-vowels'),
-            symbols: $this->validated('symbols'),
+            numerals: $this->boolean('numerals'),
+            removeChars: $this->string('remove-chars'),
+            secure: $this->boolean('secure'),
+            noVowels: $this->boolean('no-vowels'),
+            symbols: $this->boolean('symbols'),
             length: $this->validated('length'),
         );
     }
