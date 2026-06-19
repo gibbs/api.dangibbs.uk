@@ -1,0 +1,5 @@
+{
+    "success": true,
+    "command": "/usr/bin/qrencode --type=PNG --margin=4 --size=3 --dpi=72 --level=L --casesensitive --foreground=000000 --background=FFFFFF -o - https://google.com",
+    "output": "iVBORw0KGgoAAAANSUhEUgAAAGMAAABjAQMAAAC19SzWAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP//8i138cAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADqSURBVDiNzdSxDcMgEAXQs1zQJQsgsQadV/ItEOIJWImONZBYADoKy5dLZMlpnEMpolDxCkuffxig9wV/rAIww+oCDJIqrdhWjLyRFPRtyhQBO+Sa8X3Cpl2PaJ0VvCU7FZ8Po8bjtKfiVabsjwZPVVSa7XgHs8gynswSsqjN6oviIAkl1UBL0ACZJHEWUAnD3sQHbZA3la78taSi9AXI71k+iSJ3kAuMJKnYNLRnZ17Saw6mkqmSeLaOeLyyXvdaD9Qhvtdc2z5bQS6m26SvHcLGEx4XUZwl5mINSXr+03aslKukX79E3+kB1cy2O6nZ2JsAAAAASUVORK5CYII="
+}
