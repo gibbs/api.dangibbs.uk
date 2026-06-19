@@ -33,8 +33,8 @@ final class UuidRequest extends FormRequest
     public function toDto(): UuidData
     {
         return new UuidData(
-            random: (bool) $this->validated('random'),
-            time: (bool) $this->validated('time'),
+            random: $this->boolean('random'),
+            time: $this->boolean('time'),
         );
     }
 }

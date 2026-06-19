@@ -9,5 +9,6 @@ Route::prefix('tools')->middleware(['throttle:60,1', 'auth:sanctum'])->group(fun
     Route::post('/dig', Controllers\Tools\DigController::class);
     Route::post('/pwgen', Controllers\Tools\PwgenController::class);
     Route::post('/mkpasswd', Controllers\Tools\MkpasswdController::class);
+    Route::post('/qrcode', Controllers\Tools\QrcodeController::class);
     Route::post('/uuid', Controllers\Tools\UuidController::class);
 });
