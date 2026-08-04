@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2.1",
+    "result": {
+        "name": "sles",
+        "releases": [
+            {
+                "name": "15.5",
+                "releaseDate": "2023-07-18",
+                "isEol": true,
+                "eolFrom": "2024-12-31"
+            },
+            {
+                "name": "15.4",
+                "releaseDate": "2022-07-19",
+                "isEol": true,
+                "eolFrom": "2023-12-31"
+            }
+        ]
+    }
+}
