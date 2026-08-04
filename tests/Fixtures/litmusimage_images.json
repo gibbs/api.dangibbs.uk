@@ -1,0 +1,64 @@
+[
+    {
+        "image": "ubuntu",
+        "tag": "24.04",
+        "dockerfile": "apt_sysvinit-utils",
+        "platforms": [
+            "amd64",
+            "arm64/v8"
+        ],
+        "base_image": "ubuntu",
+        "base_tag": "24.04"
+    },
+    {
+        "image": "centos",
+        "tag": "7",
+        "dockerfile": "yum_systemd_ssh",
+        "platforms": [
+            "amd64"
+        ],
+        "base_image": "centos",
+        "base_tag": "7"
+    },
+    {
+        "image": "centos",
+        "tag": "stream9",
+        "dockerfile": "dnf_systemd",
+        "platforms": [
+            "amd64",
+            "arm64/v8"
+        ],
+        "base_image": "quay.io/centos/centos",
+        "base_tag": "stream9"
+    },
+    {
+        "image": "sles",
+        "tag": "15",
+        "dockerfile": "zypper_systemd",
+        "platforms": [
+            "amd64"
+        ],
+        "base_image": "registry.suse.com/suse/sle15",
+        "base_tag": "15.5"
+    },
+    {
+        "image": "scientificlinux",
+        "tag": "7",
+        "dockerfile": "yum_systemd_ssh",
+        "platforms": [
+            "amd64"
+        ],
+        "base_image": "scientificlinux/sl",
+        "base_tag": "7"
+    },
+    {
+        "image": "windows",
+        "tag": "2019",
+        "dockerfile": "unknown",
+        "platforms": [
+            "amd64"
+        ],
+        "base_image": "windows",
+        "base_tag": "2019"
+    }
+]

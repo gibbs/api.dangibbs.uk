@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2.1",
+    "result": {
+        "name": "centos",
+        "releases": [
+            {
+                "name": "7",
+                "releaseDate": "2014-07-07",
+                "isEol": true,
+                "eolFrom": "2024-06-30"
+            },
+            {
+                "name": "6",
+                "releaseDate": "2011-07-10",
+                "isEol": true,
+                "eolFrom": "2020-11-30"
+            }
+        ]
+    }
+}
