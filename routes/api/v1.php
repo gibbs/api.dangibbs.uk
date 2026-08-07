@@ -11,5 +11,6 @@ Route::prefix('tools')->middleware(['throttle:60,1', 'auth:sanctum'])->group(fun
     Route::post('/pwgen', Controllers\Tools\PwgenController::class);
     Route::post('/mkpasswd', Controllers\Tools\MkpasswdController::class);
     Route::post('/qrcode', Controllers\Tools\QrcodeController::class);
+    Route::post('/rdap', Controllers\Tools\RdapController::class);
     Route::post('/uuid', Controllers\Tools\UuidController::class);
 });
